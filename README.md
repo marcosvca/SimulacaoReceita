@@ -22,6 +22,7 @@ nova coluna.
 
 
 Formato CSV:
+<pre>
 agencia;conta;saldo;status
 0101;12225-6;100,00;A
 0101;12226-8;3200,50;A
@@ -29,13 +30,14 @@ agencia;conta;saldo;status
 3202;54001-2;0,00;P
 3202;00321-2;34500,00;B
 ...
+</pre>
 
 <h3>Artefatos</h3>
 Com objetivo de cobrir todas as funcionalidades descritas previamente, e também as etapas da avaliação técnica, foram produzidos 
-códigos fontes em JAVA, armazenados neste repositório, e a partir destes, foi gerado o artefato JAR de nome SincronizacaoReceita.jar localizado na diretório build.
+códigos fontes em JAVA, armazenados neste repositório, e a partir destes, foi gerado o artefato JAR de nome SincronizacaoReceita.jar localizado na <bold>diretório build</bold>.
 
 A execução segue o padrão:
-java -jar SincronizacaoReceita.jar <input-file>
+<pre>java -jar SincronizacaoReceita.jar <input-file></pre>
 
 Os arquivos de saída são gerados com mesmo nome e caminho dos de entrada com a extensão .out
 
