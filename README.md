@@ -37,7 +37,7 @@ Com objetivo de cobrir todas as funcionalidades descritas previamente, e também
 códigos fontes em JAVA, armazenados neste repositório, e a partir destes, foi gerado o artefato JAR de nome SincronizacaoReceita.jar localizado na <bold>diretório build</bold>.
 
 A execução segue o padrão:
-<pre>java -jar SincronizacaoReceita.jar <input-file></pre>
+<pre>java -jar SincronizacaoReceita.jar {input-file}</pre>
 
 Os arquivos de saída são gerados com mesmo nome e caminho dos de entrada com a extensão .out
 
